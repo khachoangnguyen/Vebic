@@ -36,7 +36,7 @@ close all
 % speeds = [1300 1300 1600 1600 1600 1900 1900 1900 1900 2200 2200 2200]; % 12 operating points (rpm)
 % quantity = [45 75 30 45 60 30 45 60 75 30 45 60]; % Injection quantity
 % 
-% % Map resolutions (number of intervals)
+
 % r = 20;
 %r = 50;
 P1_high = mean([2.34 2.65 2.73 2.41]);
