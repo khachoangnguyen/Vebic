@@ -1,0 +1,6 @@
+function [c,ceq] = nonlincon(X,b_nox,lim)
+ceq = b_nox(1) + b_nox(2)*X(1) + b_nox(3)*X(2) + b_nox(4)*X(3)...
+      + b_nox(5)*X(1)*X(2) + b_nox(6)*X(1)*X(3) + b_nox(7)*X(2)*X(3)...
+      + b_nox(8)*X(1)^2 + b_nox(9)*X(2)^2 + b_nox(10)*X(3)^2 - lim;
+%c = @(X) c_f(X(1),X(2),X(3));
+c = [];
